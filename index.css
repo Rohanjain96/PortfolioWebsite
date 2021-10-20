@@ -376,7 +376,7 @@ body
 {
     background-color: transparent;
     color: #e91e63;
-    border: 2px solid #e91e63;
+    border: 1px solid #e91e63;
     transform: scale(1.1);
 }
 #skills
