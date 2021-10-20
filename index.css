@@ -359,7 +359,7 @@ body
     justify-content: space-between;
 }
 .buttons button{
-    background-color: yellow;
+    background-color:#e91e63;
     color: white;
     flex: 0 1 46%;
     padding: 5px;
@@ -375,8 +375,8 @@ body
 .buttons button:hover
 {
     background-color: transparent;
-    color: yellow;
-    border: 2px solid yellow;
+    color: #e91e63;
+    border: 2px solid #e91e63;
     transform: scale(1.1);
 }
 #skills
