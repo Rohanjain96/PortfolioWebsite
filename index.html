@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -68,14 +69,15 @@
                 </div>
             </div>
         </nav>
-        <div class="nav-bar-btn" id="nav-bar-btn">
+        <div class="nav-bar-btn" id="nav-bar-btn" data-aos="fade-down-left">
             <i class="fa fa-bars" aria-hidden="true" onclick="hamburgermenu()"></i>
         </div>
         <div class="nav-bar-cls-btn" id="nav-bar-cls-btn">
             <i class="fa fa-times" aria-hidden="true" onclick="clshamburgermenu()"></i>
         </div>
         <div id="home">
-            <div class="text">
+            <div class="text" data-aos="zoom-out" data-aos-easing="linear"
+            data-aos-duration="900">
                 <h1 class="hello"> Hello There</h1>
                 <span class="name">My name is Rohan Jain</span>
                 <div class="type-writter">
@@ -87,10 +89,13 @@
             </div>
         </div>
         <div id="about-me">
-            <h1>About <Span>Me</Span></h1>
+            <h1 data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="1500">About <Span>Me</Span></h1>
             <div class="bio">
-                <h2> My name is Rohan Jain </h2>
-                <p> I am a code geek, I love to code so much. Till now I am Pursuing B Tech in Computer Science And
+                <h2 data-aos="flip-left" data-aos-easing="linear"
+                data-aos-duration="900"> My name is Rohan Jain </h2>
+                <p data-aos="fade-right" data-aos-easing="linear"
+                data-aos-duration="900"> I am a code geek, I love to code so much. Till now I am Pursuing B Tech in Computer Science And
                     engineering From HMR Instute of Technology
                     and Management
                     College.
@@ -102,20 +107,23 @@
             </div>
             <div class="details">
                 <div class="details-container">
-                    <div class="details-containers">
+                    <div class="details-containers" data-aos="fade-left" data-aos-easing="linear"
+                    data-aos-duration="900">
                         <p><span><strong>Age:</strong></span>19</p>
                         <p><span><strong>Date Of Birth:</strong></span>06/04/2002</p>
                         <p><span><strong>Qualification:</strong></span>12th passed</p>
                         <p><span><strong>Language:</strong></span>Hindi,English</p>
                     </div>
-                    <div class="details-containers">
+                    <div class="details-containers" data-aos="fade-right" data-aos-easing="linear"
+                    data-aos-duration="900">
                         <p><span><strong>Freelance:</strong></span>Available</p>
                         <p><span><strong>Phone Number:</strong></span>8076735870</p>
                         <p><span><strong>City:</strong></span>New Delhi</p>
                         <p><span><strong>Graduated In:</strong></span>July 2023</p>
                     </div>
                 </div>
-                <div class="buttons">
+                <div class="buttons" data-aos="zoom-in" data-aos-easing="linear"
+                data-aos-duration="900">
                     <button>Download CV</button>
                     <button>Hire Me</button>
                 </div>
@@ -123,9 +131,11 @@
         </div>
 
         <div id="skills">
-            <h1>My <Span>Skills</Span></h1>
+            <h1 data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="900">My <Span>Skills</Span></h1>
             <div class="skill-container">
-                <div class="skillcontainers">
+                <div class="skillcontainers" data-aos="fade-right" data-aos-easing="linear"
+                data-aos-duration="900">
                     <div class="skill">
                         <div class="info">
                             <span>C</span>
@@ -143,7 +153,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="skillcontainers">
+                <div class="skillcontainers" data-aos="fade-left" data-aos-easing="linear"
+                data-aos-duration="900">
                     <div class="skill">
                         <div class="info">
                             <span>Html</span>
@@ -161,7 +172,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="skillcontainers">
+                <div class="skillcontainers" data-aos="fade-right" data-aos-easing="linear"
+                data-aos-duration="900">
                     <div class="skill">
                         <div class="info">
                             <span>Javascript</span>
@@ -175,30 +187,35 @@
         </div>
 
         <div id="Projects">
-            <h1>My <Span>Projects</Span></h1>
+            <h1  data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="900">My <Span>Projects</Span></h1>
             <div class="main-container">
-                <div class="Filterer">
+                <div class="Filterer"  data-aos="zoom-in" data-aos-easing="linear"
+                data-aos-duration="900">
                     <span>All</span>
                     <span>C</span>
                     <span>C++</span>
                     <span>Web Development</span>
                 </div>
                 <div class="Projects-container">
-                    <div class="project">
+                    <div class="project" data-aos="fade-right" data-aos-easing="linear"
+                    data-aos-duration="900">
                         <span></span>
                         <div class="content">
                             <div class="photo-img"></div>
                             <a href="https://github.com/Rohanjain96/Hangman-Game.git">Hangman Game in C</a>
                         </div>
                     </div>
-                    <div class="project">
+                    <div class="project" data-aos="fade-up-right" data-aos-easing="linear"
+                    data-aos-duration="900" >
                         <span></span>
                         <div class="content">
                             <div class="photo-img"></div>
                             <a href="https://github.com/Rohanjain96/Tictactoegame.git">TicTac Toe Game in C++</a>
                         </div>
                     </div>
-                    <div class="project">
+                    <div class="project" data-aos="fade-left" data-aos-easing="linear"
+                    data-aos-duration="900">
                         <span></span>
                         <div class="content">
                             <div class="photo-img">
@@ -213,7 +230,8 @@
 
         <div id="contact-me">
             <div class="contact-box">
-                <div class="form" >
+                <div class="form" data-aos="fade-right" data-aos-easing="linear"
+                data-aos-duration="900">
                     <h1>Get In Touch </h1>
                     <form   action="https://formspree.io/f/mnqlyvgk"
                     method="POST" name="contactform">
@@ -248,7 +266,8 @@
                     </form>
                 </div>
                 <div class="details-box">
-                    <div class="contactdetails">
+                    <div class="contactdetails" data-aos="fade-left" data-aos-easing="linear"
+                    data-aos-duration="900">
                         <div class="contactdetails-container">
                             <div class="contact-detail">
                                 <i class="fa fa-user-circle" aria-hidden="true"></i>
@@ -268,7 +287,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="map-box">
+                    <div class="map-box" data-aos="fade-left" data-aos-easing="linear"
+                    data-aos-duration="900">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13996.390571242435!2d77.11399785!3d28.716627799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1633427265570!5m2!1sen!2sin"
                             allowfullscreen="true" loading="lazy"></iframe>
@@ -289,8 +309,11 @@
     <script src="app.js"></script>
     <script src="https://use.fontawesome.com/0a0b34b77d.js"></script>
     <script src="index.js">
-        
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="https://smtpjs.com/v3/smtp.js">
     </script>
 </body>

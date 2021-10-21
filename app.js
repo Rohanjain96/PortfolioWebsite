@@ -26,13 +26,13 @@ particlesJS.load('particles-js', 'particles.json', function() {
         "value": "#ffffff"
       },
       "shape": {
-        "type": "polygon",
+        "type": ["star","circle","triangle"],
         "stroke": {
           "width": 0,
           "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 4
+          "nb_sides": 5
         },
         "image": {
           "src": "img/github.svg",

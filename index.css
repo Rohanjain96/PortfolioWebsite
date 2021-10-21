@@ -14,15 +14,15 @@ html
 body
 {
     font-family: Roboto;
-    background-color: rgb(22, 22, 22);
+    background-color: #222f3e;
     scroll-snap-type: mandatory;
-    overflow-x: hidden;
     min-height: 100vh;
     font-size: 16px;
 }
 
 .wrapper
 {
+    overflow-x: hidden;
     width: 100%;
     min-height: 100vh;
 
@@ -1046,7 +1046,7 @@ body
     }
     .Filterer
     {
-        width: 100%;
+        width: 85%;
     }
     .contactdetails
     {
@@ -1082,9 +1082,14 @@ body
     }
     .Filterer span 
     {
+        transform: scale(0.7);
         margin-bottom: 10px;
+        padding: 5px 7px;
     }
-
+    .Filterer span:hover
+    {
+        transform: scale(1);
+    }
 }
 
 @media screen and (max-width:520px)
