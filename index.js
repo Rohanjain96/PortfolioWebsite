@@ -18,3 +18,45 @@ function hamburgermenu() {
     navbtn.style.visibility = 'hidden';
     navclsbtn.style.visibility = 'visible';
 }
+
+function filter(e)
+{
+    let projects = document.getElementsByClassName("project");
+    if(e.innerText=="All")
+    {
+        for (const project of projects) {
+            project.style.display="flex";
+        }
+    }
+    else if(e.innerText=="C")
+    {
+        for (const project of projects) {
+            project.style.display="none";
+        }
+        for (const project of projects) {
+            if(project.getAttribute("data-filter")== e.innerText)
+            project.style.display="flex";
+        }
+    }
+    else if(e.innerText=="C++")
+    {
+        for (const project of projects) {
+            project.style.display="none";
+        }
+        for (const project of projects) {
+            if(project.getAttribute("data-filter")== e.innerText)
+            project.style.display="flex";
+        }
+    }
+    else if(e.innerText=="Web Development")
+    {
+        for (const project of projects) {
+            project.style.display="none";
+        }
+        for (const project of projects) {
+            if(project.getAttribute("data-filter")== e.innerText)
+            project.style.display="flex";
+        }
+    }
+
+}
