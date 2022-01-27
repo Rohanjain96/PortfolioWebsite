@@ -79,7 +79,7 @@ function age() {
 
     if(cmonth == bornmonth)
     {
-        if(borndate<todaydate)
+        if(borndate>todaydate)
         {
             age = age-1;
         }
