@@ -64,8 +64,8 @@ function filter(e)
 age();
 
 function age() {
-    let borndate = 27;
-    let bornmonth = 1;
+    let borndate = 6;
+    let bornmonth = 4;
     let bornyear = 2002;
     let date = new Date();
     let todaydate = date.getDate();
