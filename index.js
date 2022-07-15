@@ -58,6 +58,16 @@ function filter(e)
             project.style.display="flex";
         }
     }
+    else if(e.innerText=="MERN Stack")
+    {
+        for (const project of projects) {
+            project.style.display="none";
+        }
+        for (const project of projects) {
+            if(project.getAttribute("data-filter")== e.innerText)
+            project.style.display="flex";
+        }
+    }
 
 }
 
